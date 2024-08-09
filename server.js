@@ -24,7 +24,7 @@ app.post('/', (req,res)=>{
 
     let city = req.body.City_name;
 
-    let url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&appid=3a6720759b94d3baca3e4f73e0bc7aea";
+    let url = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&units=metric&appid=Your API Key";
 
     https.get(url, (respond)=>{
 
